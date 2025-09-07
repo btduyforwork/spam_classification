@@ -38,8 +38,8 @@ This project implements a simple **text classification model** to detect whether
    - Metrics: **Accuracy** on validation and test sets.  
    - Example:  
      ```
-     Val accuracy: 0.8816
-     Test accuracy: 0.8602
+     Val accuracy: 0.98
+     Test accuracy: 0.97
      ```
 
 8. **Prediction on New Input**  
@@ -59,7 +59,8 @@ This project implements a simple **text classification model** to detect whether
 ---
 
 ## 📊 Dataset
-- SMS Spam Collection dataset.  
+- Message Spam Collection dataset.
+- Source: https://drive.google.com/uc?id=1N7rk-kfnDFIGMeX0ROVTjKh71gcgx-7R
 - Example:  
 
 | Category | Message                                  |
@@ -72,9 +73,4 @@ This project implements a simple **text classification model** to detect whether
 ## 🚀 How to Run
 
 1. Clone repo or open notebook in Google Colab.  
-2. Load dataset (`2cls_spam_text_cls.csv`).  
-3. Run preprocessing & feature extraction.  
-4. Train model:  
-   ```python
-   model = MultinomialNB(alpha=1.0)
-   model.fit(X_train, y_train)
+2. Run all
